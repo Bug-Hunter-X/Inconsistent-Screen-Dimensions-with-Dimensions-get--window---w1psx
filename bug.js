@@ -1,0 +1,1 @@
+This React Native code uses `Dimensions.get('window')` to get screen dimensions, but it might not always provide accurate results, especially on Android devices or when screen orientation changes frequently.  The `Dimensions` API can be unreliable during initial app load or when the app resumes from the background.
